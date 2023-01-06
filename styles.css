@@ -55,3 +55,28 @@ body{
     transition: transform 0.3s ease-out;
     transform: scale(1.02);
 }
+.hide{
+    display: none !important; 
+    visibility: hidden;
+}
+.list-items-container{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e7e7e7;
+    width: 80vw;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+li{
+    list-style: none;
+    display: inherit;
+}
+.author{
+    text-align: center;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    justify-self: end;
+    margin-bottom: 20px;
+}
